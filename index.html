@@ -4,11 +4,75 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Red Calc</title>
 </head>
 <body>
-  <h1>Calculadora Competências ENEM</h1>
+  <main>
+    <h1>Calculadora Competências ENEM</h1>
+    <div class="container">
+      <div>
+        <h2>C1</h2>
+        <button class="button" onclick="addGrade(0)">0</button>
+        <button class="button" onclick="addGrade(40)">40</button>
+        <button class="button" onclick="addGrade(80)">80</button>
+        <button class="button" onclick="addGrade(120)">120</button>
+        <button class="button" onclick="addGrade(160)">160</button>
+        <button class="button" onclick="addGrade(200)">200</button>
+      </div>
+    
+      <div>
+        <h2>C2</h2>
+        <button class="button" onclick="addGrade(0)">0</button>
+        <button class="button" onclick="addGrade(40)">40</button>
+        <button class="button" onclick="addGrade(80)">80</button>
+        <button class="button" onclick="addGrade(120)">120</button>
+        <button class="button" onclick="addGrade(160)">160</button>
+        <button class="button" onclick="addGrade(200)">200</button>
+      </div>
+    
+      <div>
+        <h2>C3</h2>
+        <button class="button" onclick="addGrade(0)">0</button>
+        <button class="button" onclick="addGrade(40)">40</button>
+        <button class="button" onclick="addGrade(80)">80</button>
+        <button class="button" onclick="addGrade(120)">120</button>
+        <button class="button" onclick="addGrade(160)">160</button>
+        <button class="button" onclick="addGrade(200)">200</button>
+      </div>
+    
+      <div>
+        <h2>C4</h2>
+        <button class="button" onclick="addGrade(0)">0</button>
+        <button class="button" onclick="addGrade(40)">40</button>
+        <button class="button" onclick="addGrade(80)">80</button>
+        <button class="button" onclick="addGrade(120)">120</button>
+        <button class="button" onclick="addGrade(160)">160</button>
+        <button class="button" onclick="addGrade(200)">200</button>
+      </div>
+    
+      <div>
+        <h2>C5</h2>
+        <button class="button" onclick="addGrade(0)">0</button>
+        <button class="button" onclick="addGrade(40)">40</button>
+        <button class="button" onclick="addGrade(80)">80</button>
+        <button class="button" onclick="addGrade(120)">120</button>
+        <button class="button" onclick="addGrade(160)">160</button>
+        <button class="button" onclick="addGrade(200)">200</button>
+      </div>
+    
+      <div class="total-container">
+        <h2>Nota Total: <span id="totalGrade">0</span></h2>
+        <button class="button" onclick="resetGrades()">Apagar</button>
+      </div>
+      
+    
+      
+    </div>
+  </main>
 </body>
 <script src="script.js"></script>
 </html>
