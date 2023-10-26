@@ -81,6 +81,11 @@ footer {
   text-align: center;
 }
 
+footer p a{
+  text-decoration: none;
+  color: #A75D5D;
+}
+
 @media (max-width: 425px) {
   :root {
     font-size: 0.6rem;
