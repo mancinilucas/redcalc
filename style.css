@@ -8,6 +8,9 @@ body{
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   font-family: 'Roboto', sans-serif;
+
+  color: #A75D5D;
+  background-color: #FFC3A1;
 }
 
 main{
@@ -40,6 +43,15 @@ button{
   padding: 0.5rem;
   width: 3rem;
   border-radius: 0.25rem;
+  background-color: #F0997D;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+
+.button-pressed{
+  background-color: #A75D5D;
+  color: #fff;
 }
 
 .container div{
